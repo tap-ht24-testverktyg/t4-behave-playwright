@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7eafc86-be5a-4678-b3e8-5f5cb9345f07" name="Changes" comment="Initial files">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/add_players.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/steps/step_add_players.py" afterDir="false" />
+    <list default="true" id="e7eafc86-be5a-4678-b3e8-5f5cb9345f07" name="Changes" comment="Feature add players">
+      <change afterPath="$PROJECT_DIR$/src/environment.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/add_players.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/add_players.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/steps/step_add_players.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/steps/step_add_players.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -68,11 +69,19 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1744027076208</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="Feature add players">
+      <option name="closed" value="true" />
+      <created>1744030097750</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1744030097750</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial files" />
+    <MESSAGE value="Feature add players" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature add players" />
   </component>
 </project>

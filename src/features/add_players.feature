@@ -3,6 +3,7 @@
 Feature: Lägga till namn på spelare
 
   Scenario: Lägga till två spelare
+    Given spelaren är på startsidan
     When spelaren klickar på knappen "Lägg till spelare"
     And spelaren skriver "David" i textfältet
     And spelaren klickar på knappen "Lägg till spelare"
