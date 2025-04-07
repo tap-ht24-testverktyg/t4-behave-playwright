@@ -1,15 +1,6 @@
-import re
-
 from playwright.sync_api import expect
 from behave import given, when, then
-
-
-# TODO: flytta till page-fil
-def fill_player_name(page, name):
-    page.get_by_role("textbox").fill(name)
-
-def player_visible(page, name):
-    return page.locator(".player").get_by_text(re.compile(name + "\s+0:00.0"))
+from pages.start_page import fill_player_name, player_visible
 
 
 @given(u'spelaren är på startsidan')
