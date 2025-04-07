@@ -23,21 +23,12 @@ def step_when_add_player(context):
     add_button.click(timeout=100)
 
 
-@when(u'spelaren skriver "David" i textfältet')
-def step_when_player_types_name(context):
-    fill_player_name(context.page, "David")
-
-@when(u'spelaren skriver "Gerson" i textfältet')
-def step_when_player_types_name_2(context):
-    fill_player_name(context.page, "Gerson")
+@when(u'spelaren skriver "{user1}" i textfältet')
+def step_when_player_types_name(context, user1):
+    fill_player_name(context.page, user1)
 
 
-@then(u'"David" dyker upp på sidan med texten "0:00.0"')
-def step_player_name_visible(context):
-    element = player_visible(context.page, "David")
-    expect(element).to_be_visible()
-
-@then(u'"Gerson" dyker upp på sidan med texten "0:00.0"')
-def step_then_player_name_visible_2(context):
-    element = player_visible(context.page, "Gerson")
-    expect(element).to_be_visible()
+@then(u'"{user}" dyker upp på sidan med texten "0:00.0"')
+def step_player_name_visible(context, user):
+    element = player_visible(context.page, user)
+    expect(element).to_be_visible(timeout=100)
