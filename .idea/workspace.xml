@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7eafc86-be5a-4678-b3e8-5f5cb9345f07" name="Changes" comment="Working with steps">
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/start_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/steps/__init__.py" afterDir="false" />
+    <list default="true" id="e7eafc86-be5a-4678-b3e8-5f5cb9345f07" name="Changes" comment="Import functions">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/hide_add_player_form.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/steps/step_hide_add_player_form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/t4-behave-playwright.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/t4-behave-playwright.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/start_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/start_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/steps/step_add_players.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/steps/step_add_players.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lejonmanen&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/tap-ht24-testverktyg/t4-behave-playwright&quot;,
+    &quot;accountId&quot;: &quot;098cb451-af06-4d37-b070-929c9e6ddb22&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -46,7 +59,8 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "last_opened_file_path": "C:/Programmering/arbete/undervisning/skola/tapht24-testverktyg/t4-behave-playwright",
+    "settings.editor.selected.configurable": "preferences.sourceCode"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -93,13 +107,37 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1744032636430</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="Finished steps for add_players feature">
+      <option name="closed" value="true" />
+      <created>1744034477027</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1744034477027</updated>
+    </task>
+    <task id="LOCAL−00005" summary="Parametrized step functions">
+      <option name="closed" value="true" />
+      <created>1744036618743</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1744036618743</updated>
+    </task>
+    <task id="LOCAL−00006" summary="Import functions">
+      <option name="closed" value="true" />
+      <created>1744054064127</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1744054064127</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial files" />
     <MESSAGE value="Feature add players" />
     <MESSAGE value="Working with steps" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working with steps" />
+    <MESSAGE value="Finished steps for add_players feature" />
+    <MESSAGE value="Parametrized step functions" />
+    <MESSAGE value="Import functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Import functions" />
   </component>
 </project>
